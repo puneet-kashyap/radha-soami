@@ -26,6 +26,22 @@ const Dayalbagh = () => {
                      </p>
                       </div>
                 </div>
+                <div className="row">
+                    <div className="col-lg-12 text-center">
+                        <h3 style={{'marginTop':'30px'}}>Radha Soami Dayalbagh Satsang Locations</h3>
+                        <hr className="star-primary"></hr>
+                    </div>
+                </div>
+                <div className="row" style={{'margin':'20px 0px'}}>
+                    <div className="col-md-8">
+                        <u><h3>Cambridge</h3></u>
+                        <p>Opening soon in November</p>
+                        <p>96 Queen St E.<br/>
+                        Cambridge, Ontario N3C 2B1<br/>
+                        Canada</p>
+                    </div>
+                </div>
+
               <div style={{'margin':'75px 0px'}}>
                 <h3>Humble Request:</h3>
                 <p>If you would like to invite new people to your local Satsang ghar or centers, please share the full address and the phone number <span className="glyphicon glyphicon-phone-alt"></span> at <a href="mailto:dayalbagh@radhasoami.ca">dayalbagh@radhasoami.ca</a> so that we can publish it here and more sangat can join and benefit from Radha Soami Satsang.</p>

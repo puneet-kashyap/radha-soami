@@ -1,5 +1,4 @@
 import React from 'react';
-import SubNav  from './subnav';
 import { Link } from 'react-router-dom';
 
 

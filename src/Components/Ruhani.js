@@ -25,6 +25,13 @@ const Ruhani = () => {
                       </div>
                 </div>
 
+                <div className="row">
+                    <div className="col-lg-12 text-center">
+                        <h3 style={{'marginTop':'30px'}}>Radha Soami Ruhani Mission Satsang Locations</h3>
+                        <hr className="star-primary"></hr>
+                    </div>
+                </div>
+
                 <div className="row" style={{'margin':'20px 0px'}}>
                     <div className="col-md-4">
                         <h3>MISSISSAUGA</h3>
