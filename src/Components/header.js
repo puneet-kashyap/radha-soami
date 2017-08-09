@@ -1,4 +1,6 @@
 import React from 'react';
+import Carousel from './carousel'
+
 
 const Header = () => {
     return (
@@ -8,11 +10,12 @@ const Header = () => {
                 <div className="col-lg-12 text-center">
                   <h1 style={{'marginTop':'30px'}}>Radha Soami Canada</h1>
                   <hr className="star-primary"></hr>
-                    <h4 className="col-lg-8 col-lg-offset-2">Reclaiming the downtrodden humanity involved in endless troubles and miseries in this world.
-                    Radhasoami faith can easily be practiced by any person of any age and in any country.</h4>
+                    <p className="col-lg-8 col-lg-offset-2 hidden-xs">Reclaiming the downtrodden humanity involved in endless troubles and miseries in this world.
+                    Radhasoami faith can easily be practiced by any person of any age and in any country.</p>
                 </div>
               </div>
                 <div className="container">
+                <Carousel/>
                       <div className="row">
                         <div className="col-lg-12">
                             <h3>Radha Soami</h3>

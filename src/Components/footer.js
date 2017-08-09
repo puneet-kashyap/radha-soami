@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -7,10 +8,14 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="footer-col col-md-4">
-                            <h3>Rashmi Kashyap</h3>
+                          <h3>Radha Soami</h3>
+                          <p>
+                            <Link to='/beas'>Beas</Link><br/>
+                            <Link to='/dayalbagh'>Dayalbagh</Link><br/>
+                            <Link to='/ruhani'>Ruhani Mission</Link><br/>
+                          </p>
                         </div>
-                        <div className="footer-col col-md-4">
-                          <div className="hidden-xs">
+                        <div className="footer-col col-md-4 hidden-xs">
                             <h3>Around the Web</h3>
                             <ul className="list-inline">
                                 <li>
@@ -26,12 +31,14 @@ const Footer = () => {
                                     <a href="https://www.linkedin.com" rel="noopener noreferrer" target="_blank" className="btn-social btn-outline"><span className="sr-only">Linked In</span><i className="fa fa-fw fa-linkedin"></i></a>
                                 </li>
                             </ul>
-                            </div>
-                            <div className="fb-like" data-href="https://www.facebook.com/Add-Glamour-Home-Staging-662480170611616/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
                         </div>
                         <div className="footer-col col-md-4">
-                            <h3>Name</h3>
-
+                            <h3>Contact Us</h3>
+                            <p>
+                                <Link to='/contact'>Lets Chat</Link><br/>
+                                <a href="radhasoami.ca"> RadhaSoami.ca</a><br/>
+                                <a href={`mailto:info@radhasoami.ca?Subject=Add%20Glamour`}>info@radhasoami.ca</a>
+                            </p>
                         </div>
                     </div>
                 </div>
