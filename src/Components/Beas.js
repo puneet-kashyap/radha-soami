@@ -7,22 +7,29 @@ const Beas = () => {
         <div>
         <Navbar />
         <section className="success" id="about">
-          <div className="row">
-              <div className="col-lg-12 text-center" style={{'margin':'25px 0px'}}>
-                  <h1>Radha Soami Beas</h1>
-                  <hr className="star-primary"></hr>
-                  <img style={{'margin':'auto'}} src={require('../Images/beas/Radha_Soami_Canada_header.jpg')} className="img-responsive hidden-xs" alt="Radha Soami Beas" />
-              </div>
-          </div>
           <div className="container">
-                <div className="row" style={{'margin':'20px 0px'}}>
-                    <div className="col-lg-12">
-                      <p><b>Radha Soami Satsang Beas</b> (RSSB) is a philosophical organization based on the spiritual teachings of all religions and dedicated to a process of inner development under the guidance of a spiritual teacher.</p>
-                      <p>It was established in India in 1891 and gradually began spreading to other countries like Canada. Today RSSB holds meetings in more than 90 countries worldwide. It is a non-profit organisation with no affiliation to any political or commercial organizations.</p>
-                      <p>At the core of the RSSB philosophy is a belief that there is a spiritual purpose to human life – to experience the divinity of God who resides in all of us. It is through this experience that we will realize the truth of the concept that there is only one God and we are all expressions of his love.</p>
-                      <p>Official website: <a href="http://www.rssb.org" rel="noopener noreferrer" target="_blank">Radha Soami Satsang Beas</a></p>
-                      </div>
+            <div className="row">
+                <div className="col-lg-12 text-center" style={{'margin':'25px 0px'}}>
+                    <h1>Radha Soami Beas</h1>
+                    <hr className="star-primary"></hr>
+                    <img style={{'margin':'auto'}} src={require('../Images/beas/Radha_Soami_Canada_header.jpg')} className="img-responsive" alt="Radha Soami Beas" />
                 </div>
+            </div>
+            <div className="row" style={{'margin':'20px 0px'}}>
+                <div className="col-lg-12">
+                  <p><b>Radha Soami Satsang Beas</b> (RSSB) is a philosophical organization based on the spiritual teachings of all religions and dedicated to a process of inner development under the guidance of a spiritual teacher.</p>
+                  <p>It was established in India in 1891 and gradually began spreading to other countries like Canada. Today RSSB holds meetings in more than 90 countries worldwide. It is a non-profit organisation with no affiliation to any political or commercial organizations.</p>
+                  <p>At the core of the RSSB philosophy is a belief that there is a spiritual purpose to human life – to experience the divinity of God who resides in all of us. It is through this experience that we will realize the truth of the concept that there is only one God and we are all expressions of his love.</p>
+                  <p>Official website: <a href="http://www.rssb.org" rel="noopener noreferrer" target="_blank">Radha Soami Satsang Beas</a></p>
+                  </div>
+            </div>
+
+            <div className="row">
+                <div className="col-lg-12 text-center">
+                    <h3 style={{'marginTop':'30px'}}>Radha Soami Beas Satsang Locations</h3>
+                    <hr className="star-primary"></hr>
+                </div>
+            </div>
 
                 <div className="row" style={{'margin':'20px 0px'}}>
                     <div className="col-md-4">
