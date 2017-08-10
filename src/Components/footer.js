@@ -36,8 +36,8 @@ const Footer = () => {
                             <h3>Contact Us</h3>
                             <p>
                                 <Link to='/contact'>Lets Chat</Link><br/>
-                                <a href="radhasoami.ca"> RadhaSoami.ca</a><br/>
-                                <a href={`mailto:info@radhasoami.ca?Subject=Add%20Glamour`}>info@radhasoami.ca</a>
+                                <a href="/">RadhaSoami.ca</a><br/>
+                                <a href={`mailto:info@radhasoami.ca?Subject=Radha%20Soami`}>info@radhasoami.ca</a>
                             </p>
                         </div>
                     </div>

@@ -18,8 +18,8 @@ install:
     - npm install -g firebase-tools
 
 after_success:
-    - echo "Successfully deployed"
     - firebase deploy --token $FIREBASE_TOKEN
+    - echo "Successfully deployed"
 
 branches:
   only:
