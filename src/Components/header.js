@@ -26,7 +26,7 @@ const Header = () => {
                             <p>One of the challenges encountered by many new people in Canada is that there are not much information available about where to go for Satsang on the weekends in their locality or where to meet the fellow Radha Soami sangat in Canada.</p>
                             <p>So, we at RadhaSoami.ca decided to serve this website as a Sewa to create the platform for Radha Soami community in Canada.</p>
                             <p>A very humble request to spread the word and assist all the people in Canada to find Satsang centres in their region or city and unite with other fellow Radha Soami sangat.</p>
-                            <p>If you would like to share the location of your neighbourhood satsang house or phone number where they can get more info then please share the full address and the phone number  at info@radhasoami.ca and we would love to publish it here so that our fellow satsangis can benefit and get in touch with our Radha Soami community in Canada.</p>
+                            <p>If you would like to share the location of your neighbourhood satsang house or phone number where they can get more info then please share the full address and the phone number <span className="glyphicon glyphicon-phone-alt"></span> at <a href="mailto:info@radhasoami.ca">info@radhasoami.ca</a> and we would love to publish it here so that our fellow satsangis can benefit and get in touch with our Radha Soami community in Canada.</p>
                         </div>
                     </div>
                 </div>
