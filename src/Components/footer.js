@@ -47,7 +47,8 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            Copyright &copy; Radha Soami Canada 2017
+                            Copyright &copy; Radha Soami Canada {new Date().getFullYear()}<br/>
+                            Built with 💖 by the <u><a style={{'color':'white'}} href={`mailto:kashyap@radhasoami.ca`}>Kashyap</a></u> team
                         </div>
                     </div>
                 </div>
