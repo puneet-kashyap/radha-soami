@@ -41,11 +41,25 @@ const Dayalbagh = () => {
                         Canada</p>
                     </div>
                 </div>
-
               <div style={{'margin':'75px 0px'}}>
                 <h3>Humble Request:</h3>
                 <p>If you would like to invite new people to your local Satsang ghar or centers, please share the full address and the phone number <span className="glyphicon glyphicon-phone-alt"></span> at <a href="mailto:dayalbagh@radhasoami.ca">dayalbagh@radhasoami.ca</a> so that we can publish it here and more sangat can join and benefit from Radha Soami Satsang.</p>
                 <p>Be the part of this noble Seva. Help to spread the word and connect with the fellow Radha Soami sangat.</p>
+                <div className="row text-center" style={{'margin':'50px 10px 10px 10px'}}>
+                      <div className="fb-page visible-xs"
+                        data-href="https://www.facebook.com/DayalbaghCanada"
+                        data-tabs="timeline,messages"
+                        data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/DayalbaghCanada" className="fb-xfbml-parse-ignore">
+                        <a href="https://www.facebook.com/DayalbaghCanada">Radha Soami Dayalbagh, Canada</a>
+                        </blockquote>
+                      </div>
+                      <div className="fb-like hidden-xs"
+                        data-href="https://facebook.com/dayalbaghcanada"
+                        data-layout="button_count" data-action="like" data-size="large"
+                        data-show-faces="false" data-share="true">
+                      </div>
+                </div>
               </div>
             </div>
         </section>
