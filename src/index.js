@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Switch, } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import Contact from './Components/Contact';
@@ -18,7 +18,7 @@ ReactDOM.render((
       <Route exact path='/ruhani' component={Ruhani}/>
       <Route exact path='/dayalbagh' component={Dayalbagh}/>
       <Route exact path='/contact' component={Contact}/>
-      <Route path="*" component={App} />
+      <Route path="*" render={() => (<Redirect to="/"/>)} />
     </Switch>
   </BrowserRouter>
   ), document.getElementById('root'));
