@@ -18,6 +18,7 @@ ReactDOM.render((
       <Route exact path='/ruhani' component={Ruhani}/>
       <Route exact path='/dayalbagh' component={Dayalbagh}/>
       <Route exact path='/contact' component={Contact}/>
+      <Route path="*" component={App} />
     </Switch>
   </BrowserRouter>
   ), document.getElementById('root'));
