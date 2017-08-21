@@ -14,10 +14,10 @@ ReactDOM.render((
   <BrowserRouter forceRefresh={true}>
     <Switch>
       <Route exact path='/' component={App}/>
-      <Route exact path='/beas' component={Beas}/>
-      <Route exact path='/ruhani' component={Ruhani}/>
-      <Route exact path='/dayalbagh' component={Dayalbagh}/>
-      <Route exact path='/contact' component={Contact}/>
+      <Route exact path='/Beas' component={Beas}/>
+      <Route exact path='/Ruhani' component={Ruhani}/>
+      <Route exact path='/Dayalbagh' component={Dayalbagh}/>
+      <Route exact path='/Contact' component={Contact}/>
       <Route path="*" render={() => (<Redirect to="/"/>)} />
     </Switch>
   </BrowserRouter>

@@ -10,9 +10,9 @@ const Footer = () => {
                         <div className="footer-col col-md-4">
                           <h3>Radha Soami</h3>
                           <p>
-                            <Link to='/beas'>Beas</Link><br/>
-                            <Link to='/dayalbagh'>Dayalbagh</Link><br/>
-                            <Link to='/ruhani'>Ruhani Mission</Link><br/>
+                            <Link to='/Beas'>Beas</Link><br/>
+                            <Link to='/Dayalbagh'>Dayalbagh</Link><br/>
+                            <Link to='/Ruhani'>Ruhani Mission</Link><br/>
                           </p>
                         </div>
                         <div className="footer-col col-md-4 hidden-xs">
@@ -35,7 +35,7 @@ const Footer = () => {
                         <div className="footer-col col-md-4">
                             <h3>Contact Us</h3>
                             <p>
-                                <Link to='/contact'>Lets Chat</Link><br/>
+                                <Link to='/Contact'>Lets Chat</Link><br/>
                                 <a href="/">RadhaSoami.ca</a><br/>
                                 <a href={`mailto:info@radhasoami.ca?Subject=Radha%20Soami`}>info@radhasoami.ca</a>
                             </p>
