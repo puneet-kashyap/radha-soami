@@ -10,7 +10,7 @@ const Dayalbagh = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center">
-                        <h1 style={{'marginTop':'30px'}}>Radha Soami Dayalbagh</h1>
+                        <h1 style={{'marginTop':'30px'}}>RadhaSoami Dayalbagh</h1>
                         <hr className="star-primary"></hr>
                         <img style={{'margin':'auto'}} src={require('../Images/dayalbagh/Radha_Soami_Canada_TajMahal.jpg')} className="img-responsive" alt="Radha Soami Dayalbagh" />
                     </div>
@@ -18,7 +18,16 @@ const Dayalbagh = () => {
 
                 <div className="row" style={{'margin':'20px 0px'}}>
                     <div className="col-lg-12">
-                      <p>Dayalbagh means 'Garden' (bagh) of 'Mercy' (daya), inferring "Garden of the Merciful", is a locality in metropolitan Agra in western Uttar Pradesh, India.</p>
+                      <p><b>Dayalbagh</b> means 'Garden' (bagh) of 'Mercy' (daya), inferring "<b>Garden of the Merciful</b>", is a locality in metropolitan Agra in western Uttar Pradesh, India.</p>
+                      <p><b>Radhasoami</b> Faith are similar to those of the Religion of Saints or Sant Mat, as taught by Guru Nanak, Kabir Sahab and Saints like Jagjivan Sahab, Paltu Sahab, Tulsi Sahab of Hathras and the Sufi Saints.</p>
+                      <p>The tenets of the Faith are based on a living belief in:</p>
+                      <p>
+                        <ul>
+                          <li>the existence of God,</li>
+                          <li>Oneness of the essence of God and the spirit entity in human being, and</li>
+                          <li>Continuity of life after death.</li>
+                        </ul>
+                      </p>
                       <p>Dayalbagh is the headquarters of the RadhaSoami faith, where the 8th revered leader (Sant Satguru) lives and presides over the satsang (holy service).</p>
                       <p><q><b><u>Seva</u></b> i.e. selfless service is given highest importance in Radhasoami Faith.</q></p>
                       <p>More  information: <a href="https://en.wikipedia.org/wiki/Dayalbagh" rel="noopener noreferrer" target="_blank">Dayalbagh (Agra)</a><br/>
@@ -28,7 +37,7 @@ const Dayalbagh = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-12 text-center">
-                        <h3 style={{'marginTop':'30px'}}>Radha Soami Dayalbagh Satsang Locations</h3>
+                        <h3 style={{'marginTop':'30px'}}>RadhaSoami Dayalbagh Satsang Locations</h3>
                         <hr className="star-primary"></hr>
                     </div>
                 </div>

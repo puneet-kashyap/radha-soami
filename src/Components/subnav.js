@@ -24,16 +24,16 @@ const SubNav = () => {
                                 <Link to='/'>Home</Link>
                             </li>
                             <li >
-                                <Link to='/beas'>Beas</Link>
+                                <Link to='/Beas'>Beas</Link>
                             </li>
                             <li className="page-scroll">
-                                <Link to='/ruhani'>Delhi</Link>
+                                <Link to='/Ruhani'>Delhi</Link>
                             </li>
                             <li className="page-scroll">
-                                <Link to='/dayalbagh'>Dayalbagh</Link>
+                                <Link to='/Dayalbagh'>Dayalbagh</Link>
                             </li>
                             <li className="page-scroll">
-                                <Link to='/contact'>Contact Us</Link>
+                                <Link to='/Contact'>Contact Us</Link>
                             </li>
                         </ul>
                     </div>
