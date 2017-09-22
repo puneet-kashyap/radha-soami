@@ -35,6 +35,9 @@ const SubNav = () => {
                             <li className="page-scroll">
                                 <Link to='/Contact'>Contact Us</Link>
                             </li>
+                            <li className="page-scroll">
+                                <Link to='/SignIn'><span id='sign-in-status' /></Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

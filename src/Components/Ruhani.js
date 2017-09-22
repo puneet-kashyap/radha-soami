@@ -93,7 +93,7 @@ const Ruhani = () => {
                   </div>
                 </div>
 
-              <h3 style={{'margin-top':'50px'}}>Humble Request:</h3>
+              <h3 style={{'marginTop':'50px'}}>Humble Request:</h3>
               <p>If you would like to invite new people to your local Satsang ghar or centers, please share the full address and the phone number <span className="glyphicon glyphicon-phone-alt"></span> at <a href="mailto:ruhani@radhasoami.ca">ruhani@radhasoami.ca</a> so that we can publish it here and more sangat can join and benefit from Radha Soami Satsang.</p>
               <p>Be the part of this noble Seva. Help to spread the word and connect with the fellow Radha Soami sangat.</p>
             </div>

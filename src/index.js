@@ -7,6 +7,8 @@ import Contact from './Components/Contact';
 import Beas from './Components/Beas';
 import Ruhani from './Components/Ruhani';
 import Dayalbagh from './Components/Dayalbagh';
+import SignIn from './Components/SignIn';
+import Welcome from './Components/Welcome';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -18,6 +20,8 @@ ReactDOM.render((
       <Route exact path='/Ruhani' component={Ruhani}/>
       <Route exact path='/Dayalbagh' component={Dayalbagh}/>
       <Route exact path='/Contact' component={Contact}/>
+      <Route exact path='/SignIn' component={SignIn}/>
+      <Route exact path='/Welcome' component={Welcome}/>
       <Route path="*" render={() => (<Redirect to="/"/>)} />
     </Switch>
   </BrowserRouter>
