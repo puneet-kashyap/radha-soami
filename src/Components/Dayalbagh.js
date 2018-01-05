@@ -44,7 +44,7 @@ const Dayalbagh = () => {
                 <div className="row" style={{'margin':'20px 0px'}}>
                     <div className="col-md-8">
                         <u><h3>Cambridge</h3></u>
-                        <p>Opening soon in November</p>
+                        <p>Opening soon</p>
                         <p>96 Queen St E.<br/>
                         Cambridge, Ontario N3C 2B1<br/>
                         Canada</p>
