@@ -14,7 +14,10 @@ const SubNav = () => {
                         </button>
                         <div className="navbar-header visible-xs">
                         <a href="/">
-                          <img src={require('./../Images/smallLogo.png')} className="img-responsive logo-img img-rounded" alt="Radha Soami logo" />
+                          <img src={require('./../Images/smallLogo.png')}
+                          className="img-responsive logo-img img-rounded"
+                          id="radhasoami-logo" alt="Radha Soami logo"
+                          />
                         </a>
                         </div>
                     </div>

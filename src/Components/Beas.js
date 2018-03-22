@@ -61,7 +61,7 @@ const Beas = () => {
                       <p>Weekly Satsang Centre by Public <br/>
                       Every Sunday from 10.00 AM to 11 AM<br/>
                       Morning Star Public School <br/>
-                      3131 Morning Star Drive, Mississauga, ON L4T 1X3<br/>
+                      3545 Morning Star Drive, Mississauga, ON L4T 1Y3<br/>
                       Canada</p>
                   </div>
                   <div className="col-md-4">
