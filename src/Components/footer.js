@@ -10,25 +10,25 @@ const Footer = () => {
                         <div className="footer-col col-md-4">
                           <h3>Radha Soami</h3>
                           <p>
-                            <Link to='/Beas'>Beas</Link><br/>
-                            <Link to='/Dayalbagh'>Dayalbagh</Link><br/>
-                            <Link to='/Ruhani'>Ruhani Mission</Link><br/>
+                            <Link id="beas-link-footer" to='/Beas'>Beas</Link><br/>
+                            <Link id="dayalbagh-link-footer" to='/Dayalbagh'>Dayalbagh</Link><br/>
+                            <Link id="ruhani-link-footer" to='/Ruhani'>Ruhani Mission</Link><br/>
                           </p>
                         </div>
                         <div className="footer-col col-md-4 hidden-xs">
                             <h3>Around the Web</h3>
                             <ul className="list-inline">
                                 <li>
-                                    <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank" className="btn-social btn-outline"><span className="sr-only">Facebook</span><i className="fa fa-fw fa-facebook"></i></a>
+                                    <a id="facebook-footer" href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank" className="btn-social btn-outline"><span className="sr-only">Facebook</span><i className="fa fa-fw fa-facebook"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://goo.gl/photos/" rel="noopener noreferrer" target="_blank" className="btn-social btn-outline"><span className="sr-only">Google Plus</span><i className="fa fa-fw fa-google-plus"></i></a>
+                                    <a id="google-footer" href="https://goo.gl/photos/" rel="noopener noreferrer" target="_blank" className="btn-social btn-outline"><span className="sr-only">Google Plus</span><i className="fa fa-fw fa-google-plus"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com" rel="noopener noreferrer" target="_blank" className="btn-social btn-outline"><span className="sr-only">Twitter</span><i className="fa fa-fw fa-twitter"></i></a>
+                                    <a id="twitter-footer" href="https://twitter.com" rel="noopener noreferrer" target="_blank" className="btn-social btn-outline"><span className="sr-only">Twitter</span><i className="fa fa-fw fa-twitter"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com" rel="noopener noreferrer" target="_blank" className="btn-social btn-outline"><span className="sr-only">Linked In</span><i className="fa fa-fw fa-linkedin"></i></a>
+                                    <a id="linkedin-footer" href="https://www.linkedin.com" rel="noopener noreferrer" target="_blank" className="btn-social btn-outline"><span className="sr-only">Linked In</span><i className="fa fa-fw fa-linkedin"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -36,8 +36,8 @@ const Footer = () => {
                             <h3>Contact Us</h3>
                             <p>
                                 <Link to='/Contact'>Lets Chat</Link><br/>
-                                <a href="/">RadhaSoami.ca</a><br/>
-                                <a href={`mailto:info@radhasoami.ca?Subject=Radha%20Soami`}>info@radhasoami.ca</a>
+                                <a id="website-footer" href="/">RadhaSoami.ca</a><br/>
+                                <a id="info-email-footer" href={`mailto:info@radhasoami.ca?Subject=Radha%20Soami`}>info@radhasoami.ca</a>
                             </p>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             Copyright &copy; Radha Soami Canada {new Date().getFullYear()}<br/>
-                            Built with 💖 by the <u><a style={{'color':'white'}} href={`mailto:kashyap@radhasoami.ca`}>Kashyap</a></u> team
+                            Built with 💖 by the <u><a id="kashyap-email-footer" style={{'color':'white'}} href={`mailto:kashyap@radhasoami.ca`}>Kashyap</a></u> team
                         </div>
                     </div>
                 </div>
