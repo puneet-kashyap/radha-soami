@@ -15,7 +15,6 @@ const SubNav = () => {
                         <div className="navbar-header visible-xs">
                         <a href="/">
                           <img src={require('./../Images/smallLogo.png')}
-                          id="all-religion-small-logo"
                           className="img-responsive logo-img img-rounded"
                           id="radhasoami-logo" alt="Radha Soami logo"
                           />
