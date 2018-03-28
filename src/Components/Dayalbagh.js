@@ -49,6 +49,14 @@ const Dayalbagh = () => {
                         Cambridge, Ontario N3C 2B1<br/>
                         Canada</p>
                     </div>
+                    <div id="join-us-facebook" className="col-md-3 hidden-xs">
+                        <a id="dayalbagh-facebook-link" href="https://www.facebook.com/DayalbaghCanada/" rel="noopener noreferrer" target="_blank">
+                          <img src={require('./../Images/dayalbagh/dayalbagh_facebook.png')}
+                          className="img-responsive"
+                          id="facebook-banner" alt="RadhaSoami Dayalbagh Facebook"
+                          />
+                        </a>
+                    </div>
                 </div>
               <div style={{'margin':'75px 0px'}}>
                 <h3>Humble Request:</h3>
