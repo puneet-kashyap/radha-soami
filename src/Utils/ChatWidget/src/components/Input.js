@@ -47,6 +47,7 @@ class Input extends Component {
 			<form className="text-form"
 						onSubmit={this.handleSubmit}>
 				<input className="text-input"
+							 id="chat-input"
 							 type="text"
 							 name="inputText"
 							 placeholder="Enter your message"
@@ -62,6 +63,7 @@ class Input extends Component {
 					<EntypoMic/>
 				</button> */}
 				<button className="btn-send"
+								id="chat-send-btn"
 								type="submit"
 								value="Send">
 					<EntypoPaperPlane/> &nbsp;Send
