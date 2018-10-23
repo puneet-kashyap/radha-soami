@@ -85,6 +85,17 @@ const Beas = () => {
                       Canada</p>
                   </div>
                 </div>
+                <div className="row" style={{'margin':'20px 0px'}}>
+                    <div id="beas-winnipeg-address" className="col-md-4">
+                      <h3>WINNIPEG</h3>
+                      <p>Science of the Soul<br/>
+                      Every Sunday at 10:00 AM<br/>
+                      Weston Memorial Community Centre<br/>
+                      1625 Logan Avenue<br/>
+                      Winnipeg, Manitoba R3E 1S8<br/>
+                      Canada</p>
+                    </div>
+                </div>
 
               <h3 style={{'marginTop':'50px'}}>Humble Request:</h3>
               <p>If you would like to invite new people to your local Satsang ghar or centers, please share the full address and the phone number <span className="glyphicon glyphicon-phone-alt"></span> at <a id="beas-email" href="mailto:beas@radhasoami.ca">beas@radhasoami.ca</a> so that we can publish it here and more sangat can join and benefit from Radha Soami Satsang.</p>
